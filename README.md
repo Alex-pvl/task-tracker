@@ -4,7 +4,7 @@ CLI tool for managing tasks
 ---
 ### Local testing
 ```bash
-git clone https://github.com/your-username/task-tracker.git
+git clone https://github.com/alex-pvl/task-tracker.git
 ```
 ```bash
 cd task-tracker && go build -o task-cli 
