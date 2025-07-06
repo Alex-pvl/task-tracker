@@ -9,11 +9,15 @@ git clone https://github.com/alex-pvl/task-tracker.git
 ```bash
 cd task-tracker && go build -o task-cli 
 ```
----
-#### Optional
+##### Optional
 ```bash
 mkdir -p ~/.local/bin
 mv task-cli ~/.local/bin
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
+```
+---
+### Usage
+```bash
+task-cli --help
 ```
